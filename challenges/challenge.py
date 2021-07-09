@@ -4,11 +4,11 @@ from datetime import datetime
 import utils
 
 
-class Challenge(Model):
+class Challenges(Model):
     """
-    Challenge class to store the challenge details made by specific authors
+    Challenges class to store the challenge details made by specific authors
     Database Attributes:
-        Attributes stored in the `challenge` table.
+        Attributes stored in the `challenges` table.
         :param int id:              The challenge ID
         :param str title:           The challenge title.
         :param int author_id:       The challenge author's Discord ID.

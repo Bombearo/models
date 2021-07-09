@@ -4,11 +4,11 @@ from datetime import datetime
 import utils
 
 
-class ChallengeSubmission(Model):
+class ChallengeSubmissions(Model):
     """
-    Submission class to store the submission details of users for specific challenges
+    ChallengeSubmissions class to store the submission details of users for specific challenges
     Database Attributes:
-        Attributes stored in the `submission` table.
+        Attributes stored in the `challengesubmissions` table.
         :param int id:              The submission ID
         :param int challenge_id:    The submission challenge ID.
         :param str code:            The submission code.
